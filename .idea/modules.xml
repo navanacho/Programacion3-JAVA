@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/LOMBOCK-DTO.iml" filepath="$PROJECT_DIR$/LOMBOCK-DTO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Programacion3-JAVA.iml" filepath="$PROJECT_DIR$/.idea/Programacion3-JAVA.iml" />
     </modules>
   </component>
