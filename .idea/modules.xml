@@ -6,6 +6,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.main.iml" filepath="$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.test.iml" filepath="$PROJECT_DIR$/.idea/modules/LOMBOCK-DTO.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Programacion3-JAVA.iml" filepath="$PROJECT_DIR$/.idea/Programacion3-JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/REFLECTION-GENERICOS.iml" filepath="$PROJECT_DIR$/REFLECTION-GENERICOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/REFLECTION-GENERICOS.main.iml" filepath="$PROJECT_DIR$/.idea/modules/REFLECTION-GENERICOS.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/REFLECTION-GENERICOS.test.iml" filepath="$PROJECT_DIR$/.idea/modules/REFLECTION-GENERICOS.test.iml" />
     </modules>
   </component>
 </project>
