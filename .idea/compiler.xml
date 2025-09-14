@@ -5,6 +5,9 @@
       <module name="LOMBOCK-DTO" target="17" />
       <module name="LOMBOCK-DTO.main" target="17" />
       <module name="LOMBOCK-DTO.test" target="17" />
+      <module name="PROGRAMACION-FUNCIONAL" target="17" />
+      <module name="PROGRAMACION-FUNCIONAL.main" target="17" />
+      <module name="PROGRAMACION-FUNCIONAL.test" target="17" />
       <module name="REFLECTION-GENERICOS" target="17" />
       <module name="REFLECTION-GENERICOS.main" target="17" />
       <module name="REFLECTION-GENERICOS.test" target="17" />
