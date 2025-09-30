@@ -14,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuperBuilder
+@ToString
 public class Medicamento extends Base {
     private String nombre;
     private String droga;
@@ -21,10 +22,6 @@ public class Medicamento extends Base {
 
     //relacion con paciente
     @ManyToMany(mappedBy = "medicamentos")
-    private List<Paciente> paciente = new ArrayList<>();
+    private List<Paciente> pacientes = new ArrayList<>();
 
-    @Override
-    public String toString(){
-        return "Medicamento " + nombre + " Droga: " + droga;
-    }
 }

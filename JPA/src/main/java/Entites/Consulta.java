@@ -16,6 +16,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuperBuilder
+@ToString
 public class Consulta extends Base{
     private LocalDate fecha;
     private String diagnostico;
@@ -29,9 +30,4 @@ public class Consulta extends Base{
     @ManyToOne
     @JoinColumn(name = "medico_id")
     private Medico medico;
-
-    @Override
-    public String toString(){
-        return "Consulta fecha: " + fecha + " Diagnostico: " + diagnostico;
-    }
 }

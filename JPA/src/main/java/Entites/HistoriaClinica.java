@@ -14,6 +14,7 @@ import lombok.experimental.SuperBuilder;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuperBuilder
+@ToString
 public class HistoriaClinica extends Base{
     private String descripcion;
 
@@ -21,9 +22,4 @@ public class HistoriaClinica extends Base{
     @OneToOne
     @JoinColumn(name = "paciente_id")
     private Paciente paciente;
-
-    @Override
-    public String toString(){
-        return "Historia Clinica: " + descripcion;
-    }
 }

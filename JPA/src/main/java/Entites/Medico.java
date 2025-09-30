@@ -16,6 +16,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuperBuilder
+@ToString
 public class Medico extends Base {
     private String nombre;
     private String apellido;
@@ -27,8 +28,4 @@ public class Medico extends Base {
     @OneToMany (mappedBy = "medico", cascade = CascadeType.ALL)
     private List<Consulta> consultas = new ArrayList<>();
 
-    @Override
-    public String toString(){
-        return "Medico " + nombre + " " + apellido + " edad: " + edad + " Especialidad: " + especialidad + " Matricula: " + matricula;
-    }
 }

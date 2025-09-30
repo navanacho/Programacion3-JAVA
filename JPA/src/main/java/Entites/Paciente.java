@@ -14,6 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @SuperBuilder
+@ToString
 public class Paciente extends Base {
     private String nombre;
     private String apellido;
@@ -40,8 +41,4 @@ public class Paciente extends Base {
     )
     private List<Medicamento> medicamentos = new ArrayList<>();
 
-    @Override
-    public String toString(){
-        return "Paciente " + nombre + " " + apellido + " edad: " + edad + " DNI: " + DNI + " Obra social: " + obraSocial;
-    }
 }

@@ -138,7 +138,7 @@ public class Main {
         consultas.forEach(System.out::println);
 
         List<Medicamento> medicamentos = em.createQuery(
-                        "SELECT m FROM Paciente p JOIN p.medicmentos m WHERE p.id = :id", Medicamento.class)
+                        "SELECT m FROM Medicamento m JOIN m.pacientes p WHERE p.id = :id", Medicamento.class)
                 .setParameter("id", 1L)
                 .getResultList();
         medicamentos.forEach(System.out::println);
